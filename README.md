@@ -2,6 +2,9 @@
 
 > Landing Page para apresentação do estúdio de confeitaria com uma breve descrição dos produtos vendidos, esse projeto foi solicitado para possível vaga de Front-End Developer.
 
+
+![divul_Easy-Resize com](https://user-images.githubusercontent.com/58120642/103104594-ef17e200-4606-11eb-875b-ff9a653f0d5e.jpg)
+
 ![gifreview](https://user-images.githubusercontent.com/58120642/103046272-706b6800-4566-11eb-9e58-c811f5be5172.gif)
 
 
