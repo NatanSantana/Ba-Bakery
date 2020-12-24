@@ -1,0 +1,262 @@
+/*
+Theme Name: Cake Bakery
+Theme URI: http://cakebakery.com.br
+Author: Natãn Santana
+Author URI: https://www.linkedin.com/in/natan-santana/
+Description: Tema criado a partir do protótipo para o teste de Front-End.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+
+.creme {
+    background-color: #BFB5A2;
+    width: 100%;
+    height: 130px;
+}
+
+.square {
+    background: #ffffff;
+border-radius: 0px 0px 4px 4px;
+opacity: 1;
+width: 186px;
+height: 170px;
+z-index: 1;
+margin-right: 50px;
+
+}
+
+.badgeMarket {
+    background-color: #D6613E;
+    width: 28px;
+height: 28px;
+}
+
+
+.headerOut {
+    background-color: #D6CEBF;
+    width: 100%;
+    height: 21px;
+}
+
+.about {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.textInstitutional {
+position: absolute;
+top: 273px;
+left: 138px;
+width: 265px;
+height: 105px;
+}
+
+main .buttonHeader {
+position: absolute;
+background-color: #D6613E;
+top: 411px;
+left: 138px;
+width: 218px;
+height: 35px;
+border-radius: 150px; 
+}
+
+section img {
+    /* padding-top: 91px; */
+width: 456px;
+height: 332px;
+}
+
+.backgroundSection {
+    background-color: #EFEFEF;
+    width: 456px;
+    height: 332px;
+    margin-left: 100px;
+}
+
+.creme2 {
+background: #EFEFEF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.container {
+    padding:100px;
+    
+}
+
+.container hr {
+border: 2px solid #D6613E;
+width: 100px;
+
+}
+
+.paragr {
+    width: 50px;
+    height: 205px;
+    line-height: 30px;
+    }
+
+.paragr2 {
+    margin-top: 80px;
+    width: 399px;
+    height: 205px;
+}
+
+.textProducts {
+    color:#646464;
+    /* d-flex mt-5 pb-1 */
+    display:flex;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.valor {
+    color: #646464;
+}
+
+article .buttonToggle {
+    background-color:#D6613E;
+    width: 138px;
+    height: 35px;
+    border-radius: 150px;
+}
+
+.formMap .buttonToggle {
+    background-color:#D6613E;
+    width: 138px;
+    height: 35px;
+    border-radius: 150px;
+}
+
+.orangeSquare {
+    width: 409px;
+    height: 460px;
+    background: #D6613E 0% 0% no-repeat padding-box;
+    margin-left: 150px;
+}
+
+.orangeSquare h2 {
+    width: 342px;
+    height: 65px;
+}
+
+.orangeSquare img {
+    width: 342px;
+height: 225px;
+}
+
+.orangeSquare .pinWhite {
+    width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.orangeSquare p {
+    width: 323px;
+    height: 38px;
+    float: right;
+    margin-right: 30px;
+}
+
+.buttonOrange {
+    width: 138px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color:#D6613E;
+    color: white;
+}
+
+.buttonOrange:hover {
+    background-color:white; /* Green */
+    color:#D6613E;
+
+  }
+
+  .logoFooter {
+    width: 155px;
+    height: 111px;
+    filter: grayscale(100%);
+  }
+
+  footer {
+      margin-top: 150px;
+      display: flex;
+  }
+
+  footer .socialIcons {
+    width: 12px;
+    height: 12px;
+  }
+
+  .modalBg {
+    width: 100vw;
+    height: 100vh;
+    background: #00000034 0% 0% no-repeat padding-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes modal {
+      from {
+          opacity: 0;
+          transform:translate3d(0, -60px, 0)
+      }
+      to {
+          opacity: 1;
+          transform:translate3d(0, 0, 0);
+      }
+  }
+
+  .showModal .modalBg {
+      animation: modal .3s;
+  }
+
+  .modalContainer {
+    width: 748px;
+    height: 493px;
+    background:#FFFFFF;
+
+  }
+
+.modalBg.showModal {
+      display: flex;
+  }
+
+  .miniatura {
+    width: 82px;
+    height: 82px;
+    margin-right: 25px;
+  }
+
+  .modalContainer span {
+    width: 38px;
+    height: 34px;
+    border: 2px solid #CBCBCB;
+    border-radius: 4px;
+    opacity: 1;
+  }
+
+  .modalContainer .buttonHeader {
+    width: 218px;
+    height: 35px;
+    border-radius: 150px; 
+    background-color:#D6613E;
+  }
+
+  .card {
+      cursor: pointer;
+  }
